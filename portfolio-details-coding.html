@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - iPortfolio Bootstrap Template</title>
+  <title>Portfolio Details - Coding</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon-32x32.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -45,14 +45,13 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+        <img src="assets/img/profile_pic.jpeg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Eduardo Henriques</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href=" http://twitter.com/ejhenriques" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/eduardo.henriqueschiriboga" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/ejhenriques/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/eduardo-henriques-chiriboga/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
@@ -62,8 +61,6 @@
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -72,27 +69,70 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>Coding Portfolio</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li>Coding Portfolio</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio_pacman_details.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Portfolio_eyes_details.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Portfolio_RTBT_details.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: JS, HTML, CSS</li>
+                <li><strong>Project date</strong>: 01 June, 2021</li>
+                <li><strong>Project Repository</strong>: <a href="https://github.com/ejhenriques/PacMen_Exercise">Pacman</a></li>
+                <li><strong>Project Repository</strong>: <a href="https://github.com/ejhenriques/Eye_Exercise">Eyes</a></li>
+                <li><strong>Project Repository</strong>: <a href="https://github.com/ejhenriques/Real_Time_Bus_Tracking">Bus Tracking</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Coding portfolio description</h2>
+              <p>
+                Practice of: Building web applications using JavaScript, HTML, and CSS. Design and code user interactions on web pages. Defining and breaking down modern software development life cycle processes. Seting up code management tools, such as GitHub.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
-    </section>
+    </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
 
